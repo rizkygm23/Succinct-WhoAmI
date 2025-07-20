@@ -256,7 +256,7 @@ export default function Home() {
                     <div className="flex items-center mt-3 text-gray-400 animate-slideIn">
                       <span className="mr-2">└─ Avatar loaded:</span>
                       <img
-                        src={`https://unavatar.io/${username}`}
+                        src={`https://unavatar.io/x/${username}`}
                         alt="avatar"
                         className="w-8 h-8 rounded border border-gray-600 animate-spin-slow"
                       />
@@ -366,7 +366,7 @@ export default function Home() {
                             onClick={() => setSearch(u.username_x)}
                           >
                             <img
-                              src={`https://unavatar.io/${u.username_x}`}
+                              src={`https://unavatar.io/x/${u.username_x}`}
                               alt={u.username_x}
                               className="w-6 h-6 rounded border border-gray-600 hover:border-[#90DCFF] transition-colors"
                             />
